@@ -1,0 +1,115 @@
+<dict>
+  <key>submit</key>
+  <string>提交</string>
+  <key>cancle</key>
+  <string>放弃</string>
+  <key>answer right</key>
+  <string>回答正确！</string>
+  <key>answer wrong</key>
+  <string>回答错误！</string>
+  <key>time out</key>
+  <string>时间到！</string>
+  <key>harm</key>
+  <string>伤害</string>
+  <key>boom harm</key>
+  <string>爆炸伤害</string>
+  <key>atk spd</key>
+  <string>攻击速度</string>
+  <key>atk bt</key>
+  <string>击退</string>
+  <key>pencil</key>
+  <string>铅笔</string>
+  <key>pen</key>
+  <string>钢笔</string>
+  <key>eraser</key>
+  <string>橡皮擦</string>
+  <key>ink</key>
+  <string>墨水瓶</string>
+  <key>cooling</key>
+  <string>冷却</string>
+  <key>press</key>
+  <string>按</string>
+  <key>pencil info</key>
+  <string>铅不可食用噢。</string>
+  <key>pen info</key>
+  <string>小心墨水太多，把纸浸透了哦。</string>
+  <key>eraser info</key>
+  <string>橡皮擦可不是用来扔的哦。</string>
+  <key>ink info</key>
+  <string>吾家洗砚池头树，朵朵花开淡墨痕。</string>
+  <key>rush</key>
+  <string>疾</string>
+  <key>boom</key>
+  <string>爆</string>
+  <key>block</key>
+  <string>拒</string>
+  <key>rush info</key>
+  <string>风乍起，吹皱一池春水。</string>
+  <key>boom info</key>
+  <string>爆竹声中一岁除，春风送暖入屠苏。</string>
+  <key>block info</key>
+  <string>但使龙城飞将在，不教胡马度阴山。</string>
+  <key>cant go</key>
+  <string>请先收集完所有汉字石板！</string>
+  <key>collect</key>
+  <string>收集</string>
+  <key>wipe</key>
+  <string>擦除</string>
+  <key>continue</key>
+  <string>继续游戏</string>
+  <key>return main</key>
+  <string>返回主菜单</string>
+  <key>help</key>
+  <string>帮助</string>
+  <key>about</key>
+  <string>关于</string>
+  <key>exit</key>
+  <string>退出</string>
+  <key>has pause</key>
+  <string>已暂停</string>
+  <key>now right percent</key>
+  <string>本次答题正确率：</string>
+  <key>all right percent</key>
+  <string>总答题正确率：</string>
+  <key>end times</key>
+  <string>通关次数：</string>
+  <key>return first</key>
+  <string>返回鼓楼...</string>
+  <key>dead</key>
+  <string>游戏结束</string>
+  <key>help info</key>
+  <string>
+    操作  | 效果
+    a/A键  左移
+    d/D键  右移
+    k/K键  攻击
+    f/F键  使用技能
+    c/C键  确认购买符、文具、通过出口
+    q/Q键  收集汉字
+    e/E键  擦除汉字
+    空格键 跳跃，连续按下2次空格键可以二连跳</string>
+  <key>about info</key>
+  <string>
+  ”春风又绿江南岸，明月何时照我还“，正如著名诗人王安石推敲”绿“字的经典故事，游戏主人公安安在逃出古书的过程中，逐渐学会识字、赏句，从而感受国传统文化的丰富底蕴。
+
+  本项目是一款基于Cocos2d-x的Roguelike冒险游戏，旨在以一种寓教于乐的方式，让玩家能够熟练地掌握汉字并运用到语言场景当中。
+
+  游戏基本任务主线是制服兽→收集汉字→赏析句子→填入汉字。为使玩家更深刻地体会中国传统文化的魅力，本项目将古代的大量文言文、古诗词、歇后语和对联作为题目素材，并设置许多的激励机制，使玩家更加享受和汉字与句子相处的过程。
+  </string>
+  <key>first title</key>
+  <string>
+    先生：春风又到江南岸，明月何时照我还，到……到……
+    先生：不妥……不妥……你觉得,“过”字如何?
+    安安：我不懂这个,也懒得懂这个
+    先生：……你该懂的一些的,这本古书,你仔细看看
+    安安：(翻开)这书里有好多鼓,先生您……
+  </string>
+  <key>end title</key>
+  <string>
+    先生：春风又入江南岸，明月何时照我还，入……
+    安安：先生
+    先生：你觉得,“入”字怎么样
+    安安：也许“绿”字也不错
+    先生：绿……
+  </string>
+</dict>

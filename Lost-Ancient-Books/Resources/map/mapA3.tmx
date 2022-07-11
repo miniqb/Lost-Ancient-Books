@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="55" height="27" tilewidth="84" tileheight="84" infinite="0" nextlayerid="15" nextobjectid="49">
+ <tileset firstgid="1" name="gameMap" tilewidth="84" tileheight="84" tilecount="276" columns="23">
+  <image source="gameMap.png" width="1932" height="1010"/>
+ </tileset>
+ <layer id="2" name="table" width="55" height="27">
+  <data encoding="base64" compression="zlib">
+   eJztzsEJgDAUBcE0qzaR2ITab14BXsMnMAN739YAAAAAAP4d6UxX9cgCPY10V48s8KQ3fdUjG5rC4ARm
+  </data>
+ </layer>
+ <layer id="1" name="wall" width="55" height="27">
+  <data encoding="base64" compression="zlib">
+   eJztlsENwCAMA9lf6hZswUTtFOUR3pVTS+DIJ1m8ojw4QlozxhhjvrkiFemRioxIReykJnZSk6yTaF0nBSHrJFo3SEHIOonW7ZhZq+c98wAn6pLSzEJdUvprUCeV7i07J1l9/85T5vtRujdjEFj7zYlh7Tcn5gW4uKg2
+  </data>
+ </layer>
+ <layer id="3" name="goods" width="55" height="27">
+  <data encoding="base64" compression="zlib">
+   eJzt2MkJwkAYhuHk6lKN2oTagksRLkcFtQUFtQbXGlxrcK3B5ex7DgPCkJnf4P/Cc3FI/E4JJAg0TdP8l5Me4LCi9ABN++F66GMgPcRBY0wwlR7iqBXW0iMsq6CKGuqG8wOOPgcZylte10ATLbQN5zfcLe+t2ddBV3pEDBUMvw0x8j1ES0TfnrVJ7tuz1qYSyjHd6x+aYY4FlsJb4m6DLXbYe/pPX++pE8644Bo5c/VNwNd76oEnXnhHzpL+TSAVBkEaGWRD6TVyfQDATCJb
+  </data>
+ </layer>
+ <layer id="4" name="green" width="55" height="27">
+  <data encoding="base64" compression="zlib">
+   eJzt1kcKwkAUgOHEurMv7Few3EAFyw3US+gp9HKWQ1iuYAd/Ny4CM5OQaETeD9/GhJeHMDCWJUmSJAXVDPOwl/hQCyzDXkKSJOkP66Ab0Iye4/cTzrjgihvuePj8ntvGmAQ0Y+r4PWVbVhoZZJFDHgXb5weld6+/MoIoYogjgWSYSwVUESWUUUEVNdTDXEr6uXRnoIEmWmgb5nh591vpzkAfAwwxMszx8q4kuW2FNTbYOp75uduo7kuqVGfXNEe3/w57HHB0PPNzt1Hdl1Spzq5pjm7/f+sJ7j8sHg==
+  </data>
+ </layer>
+ <objectgroup id="5" name="sp wtable">
+  <object id="23" x="2604" y="1932" width="168" height="168"/>
+ </objectgroup>
+ <objectgroup id="6" name="sp stable"/>
+ <objectgroup id="8" name="sp seesaw"/>
+ <objectgroup id="9" name="sp wall">
+  <object id="25" x="0" y="2100" width="4620" height="168"/>
+  <object id="26" x="0" y="1760" width="840" height="84"/>
+  <object id="27" x="924" y="588" width="168" height="924"/>
+  <object id="28" x="1512" y="1764" width="756" height="84"/>
+  <object id="30" x="2100" y="1176" width="168" height="588"/>
+  <object id="31" x="2268" y="1428" width="840" height="168"/>
+  <object id="33" x="3108" y="1344" width="168" height="504"/>
+  <object id="34" x="3108" y="1176" width="1512" height="168"/>
+  <object id="45" x="0" y="2268" width="4620" height="84"/>
+  <object id="46" x="0" y="-84" width="4620" height="84"/>
+  <object id="47" x="4620" y="-84" width="84" height="2436"/>
+  <object id="48" x="-84" y="-84" width="84" height="2436"/>
+ </objectgroup>
+ <objectgroup id="10" name="sp platform">
+  <object id="35" x="1092" y="1428" width="1008" height="84"/>
+ </objectgroup>
+ <objectgroup id="11" name="sp trampoline"/>
+ <objectgroup id="12" name="sp monster">
+  <object id="37" x="1168" y="1932">
+   <properties>
+    <property name="name" value="bottle"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="38" x="408" y="1596">
+   <properties>
+    <property name="name" value="dinosaur"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="39" x="2696" y="1260">
+   <properties>
+    <property name="name" value="dinosaur"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="40" x="2520" y="1928">
+   <properties>
+    <property name="name" value="mushroom"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="13" name="sp door">
+  <object id="24" x="3780" y="1848" width="168" height="252"/>
+ </objectgroup>
+ <objectgroup id="14" name="sp boy">
+  <object id="36" x="4032" y="1028">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

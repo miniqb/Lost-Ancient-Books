@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="70" height="30" tilewidth="84" tileheight="84" infinite="0" nextlayerid="27" nextobjectid="63">
+ <tileset firstgid="1" name="gameMap" tilewidth="84" tileheight="84" tilecount="276" columns="23">
+  <image source="gameMap.png" width="1932" height="1010"/>
+ </tileset>
+ <layer id="13" name="table" width="70" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzsENgCAUBUGaVZsAm1D75bXg6UMyk+x9WwMAAAAAAADYx5HOdFWPLKanke7qkcU86U1f9Qi/TeZ9BGY=
+  </data>
+ </layer>
+ <layer id="2" name="wall" width="70" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1kEKgDAMRNHeH1x4h96il3OTZRaTgCGa/2B2oRXpVNcCAAAAAHzVZame625bque6O5bque7okY8e+eiRr6JHW0yWun5kn4oeHTF3Mur6kbM8qUeRZ5v0PeK9+LI9VaLunfXGHQrgv6J3xpRE/7um5AE3vMgM
+  </data>
+ </layer>
+ <layer id="3" name="goods" width="70" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1skJwkAYhuHJ1aUaYxNqCy5FuBwV1BYU1BpcsAYXrMEFa3A5+x08DBLIkGT8J/o98BJIJsx/GkYpIiIiIiKi/1OUHoB+Sh8N0FB6EMdM0BTNpAdx1Fp6AEcdpAdw1DXGv13UC1lTRpUYe6TRCI2lhyCCQkJrklZFNVRHjS/u67+fpYBvn3f4oDW2NVELtVFHYH+yY44WaIlWwrO4ZIO2aIf2wrPoTO42UZiee0d0Qmd00d5HPav98CVGbN1tTM+9G7qjB3pq7yXOapdkPKWyKIfynvQ06fQCrQkg5g==
+  </data>
+ </layer>
+ <layer id="1" name="green" width="70" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1kcOgkAYhmHsO7vGfgBLLIdAvbvlEJYr2BPfjRsCDhADRr83eVbM0BZ/xrKUUkoppZRSSimllFLfUgJJpJBGBlnkInj2CmtssI3geUFqoIkW2uigi55jnd//V0EVNdQNz95hjwOOob8g3vz+vz4GGGIU5Quqv+6EMy644oY7Hh7r45xVY0wwxczl+iffLc9AK6CIEsqooJpwXx/nrLIxxwJLl+u/MEeVCpNpZnjtCbPvlfOME/ReftebzlLvZrtpZrhlh9z3ynnGCXovv+tNZ6mgs11Z1hNhWTGI
+  </data>
+ </layer>
+ <objectgroup id="4" name="sp wtable">
+  <object id="1" x="2444" y="2184" width="162" height="164"/>
+ </objectgroup>
+ <objectgroup id="5" name="sp stable"/>
+ <objectgroup id="6" name="sp seesaw"/>
+ <objectgroup id="7" name="sp wall">
+  <object id="5" x="-1" y="2344" width="5888" height="172"/>
+  <object id="6" x="-176" y="-56" width="168" height="2600"/>
+  <object id="8" x="5888" y="-88" width="136" height="2592"/>
+  <object id="10" x="-232" y="-184" width="6232" height="176"/>
+  <object id="15" x="0" y="1592" width="838" height="176"/>
+  <object id="16" x="924" y="2014" width="1006" height="84"/>
+  <object id="17" x="2020" y="1598" width="1006" height="164"/>
+  <object id="18" x="2858" y="1760" width="164" height="174"/>
+  <object id="19" x="3782" y="1008" width="166" height="926"/>
+  <object id="20" x="4620" y="1006" width="170" height="928"/>
+  <object id="21" x="5458" y="1008" width="168" height="924"/>
+ </objectgroup>
+ <objectgroup id="8" name="sp platform">
+  <object id="22" x="840" y="1674" width="1172" height="88"/>
+  <object id="23" x="2862" y="1936" width="1926" height="76"/>
+  <object id="24" x="5458" y="1930" width="166" height="82"/>
+ </objectgroup>
+ <objectgroup id="11" name="sp trampoline"/>
+ <objectgroup id="10" name="sp monster">
+  <object id="27" x="2460.61" y="1454.55">
+   <properties>
+    <property name="name" value="dinosaur"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="28" x="1387.88" y="1875.76">
+   <properties>
+    <property name="name" value="mushroom"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="29" x="454.545" y="2212.12">
+   <properties>
+    <property name="name" value="mushroom"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="30" x="2151.52" y="2209.09">
+   <properties>
+    <property name="name" value="mushroom"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="31" x="3396.97" y="1787.88">
+   <properties>
+    <property name="name" value="dinosaur"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="32" x="4318.18" y="1790.91">
+   <properties>
+    <property name="name" value="bottle"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="sp door">
+  <object id="13" x="5040" y="2101.33" width="162.667" height="238.667"/>
+ </objectgroup>
+ <objectgroup id="12" name="sp boy">
+  <object id="26" x="330.303" y="1451.52">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

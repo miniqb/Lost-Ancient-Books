@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.5" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="84" tileheight="84" infinite="0" nextlayerid="23" nextobjectid="105">
+ <tileset firstgid="1" name="gameMap" tilewidth="84" tileheight="84" tilecount="276" columns="23">
+  <image source="gameMap.png" width="1932" height="1010"/>
+ </tileset>
+ <layer id="19" name="table" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzsENgCAUBUGaVZsAm1D75bVgOPwDM8netzUAAAAAgH+OdKaremRRTyPd1SOLnvSmr3pkcxPECwRm
+  </data>
+ </layer>
+ <layer id="20" name="wall" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlt0NwyAMhL1BMwWdItkhnaIdvZmiRK0liojCj+344T7pdHkywWcERAAAAAAA1xKi7on3KK8RfnoY7mOOWhLvUV5jTr6t4B5KY70PrfW4bmnmSj46g1p5POl45kr+GlzPOn8ttPKwJs/jHbU1uBc85rHS99xvFeJ+ejwfPb2VymOl/7t8VK3/JJWHZK49taTykDxnGnns83KLmk58rzN6lzEtdygrCK4PQE7tu9S7175LvfsHe25IMw==
+  </data>
+ </layer>
+ <layer id="21" name="goods" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1stNQkEYhuE5iYA0ggUASygAbEGkCC5LSJQWIFEL8MZGCwDUjRQgFzdSgIJWwMv+xAxzZvyPMG/ybCbk5JuExSj1v8vgSHqEhQooSo+wkL9HvNqne5zhHB33c4zTuccFLnHlfo5xuv+rBzw63hIl3Xu8YhxyfoIKTlG1N2vrdO/xgUXIeQ11NNC0N8v3B7XQlh5hoS560iN8Pp9vD8pr/CbnfMVuFpd34aYo74M4vQul3gfXuMEt7nCPvsCOqA0wxAhPeMaL5CDD3jDBFDPM8W7wnazNUb9UxnHI+Se+sMQK3/gx+H7JfJqVDgKlEkgihUOkA+FRMW0NOrcskQ==
+  </data>
+ </layer>
+ <objectgroup id="5" name="sp wtable">
+  <object id="69" x="176" y="2188" width="168" height="168"/>
+ </objectgroup>
+ <objectgroup id="6" name="sp stable"/>
+ <objectgroup id="8" name="sp seesaw"/>
+ <objectgroup id="10" name="sp platform">
+  <object id="87" x="3108" y="1596" width="924" height="84"/>
+  <object id="88" x="180" y="1516" width="1008" height="84"/>
+ </objectgroup>
+ <objectgroup id="11" name="sp trampoline"/>
+ <objectgroup id="9" name="sp wall">
+  <object id="70" x="0" y="2352" width="4200" height="168"/>
+  <object id="75" x="503.273" y="2016" width="1008.73" height="84"/>
+  <object id="79" x="1344" y="1848" width="168" height="168"/>
+  <object id="80" x="1356" y="1764" width="1596" height="84"/>
+  <object id="81" x="2952" y="1604" width="144" height="388"/>
+  <object id="82" x="2940" y="2016" width="1260" height="84"/>
+  <object id="83" x="4032" y="0" width="168" height="2016"/>
+  <object id="84" x="1851" y="1175" width="904" height="168"/>
+  <object id="86" x="0" y="924" width="1845.33" height="168"/>
+  <object id="99" x="4" y="2540" width="4200" height="84"/>
+  <object id="100" x="4192" y="-132" width="84" height="2772"/>
+  <object id="102" x="-88" y="-80" width="84" height="2688"/>
+  <object id="103" x="0" y="-84" width="4200" height="84"/>
+  <object id="104" x="1681.33" y="1093.69" width="165.333" height="248.667"/>
+ </objectgroup>
+ <objectgroup id="12" name="sp monster">
+  <properties>
+   <property name="name" value=""/>
+  </properties>
+  <object id="92" x="1720" y="2156">
+   <properties>
+    <property name="name" value="mushroom"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="93" x="984" y="1864">
+   <properties>
+    <property name="name" value="bottle"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="94" x="1756" y="1608">
+   <properties>
+    <property name="name" value="dinosaur"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="95" x="2516" y="1596">
+   <properties>
+    <property name="name" value="mushroom"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="96" x="672" y="1352">
+   <properties>
+    <property name="name" value="bird"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="97" x="3528" y="1852">
+   <properties>
+    <property name="name" value="dinosaur"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="13" name="sp door">
+  <object id="89" x="2184" y="2100" width="252" height="252"/>
+ </objectgroup>
+ <objectgroup id="14" name="sp boy">
+  <object id="90" x="672" y="732">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

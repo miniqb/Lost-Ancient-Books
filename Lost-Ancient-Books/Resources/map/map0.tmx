@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.5" orientation="orthogonal" renderorder="right-down" width="100" height="50" tilewidth="84" tileheight="84" infinite="0" nextlayerid="26" nextobjectid="97">
+ <tileset firstgid="1" name="gameMap" tilewidth="84" tileheight="84" tilecount="276" columns="23">
+  <image source="gameMap.png" width="1932" height="1010"/>
+ </tileset>
+ <layer id="22" name="table" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1NEJg1AUA9Brd60u0XYJ7TRdzoszFF+UcyD/gUCqAAAAAAAA4PqenbmzjC7C4dV5dz6ji3BYO1vnO7oI/Eni5yd2Okvi5yd2Okvi5yd2AgAAAAAAAIBkj6nqV9fKndkjiz2y2COLPeBedjXtrfM=
+  </data>
+ </layer>
+ <layer id="23" name="wall" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt182twjAUBlH3D1nQAtAEP2XQBU0QC0VmEVkoC3t8M0fy9jnKJ2UeKcV1mM91sBPZM/V/v+5RvFP/9+sehd8rFvdgsR8s9oPF7xWLe7DYD5ZX6v9+3aOw5yz2g8U9WEbs+QibbX1Ge85iz1nsB4t7fBGeIRux55HZcxZ7zhKlH6fK6WXLM0XZIwp7zmLPWew5i/1gcQ8We85iz1n21PNH5fT8W7/sB4t7sNhzFnvOsqeej8B+sNgPloh7bP1t0Pv+zJ6vW77j03yOje7M7Pm6cyp7XBrdmbnHulsqe9wb3am6ZQ8xuAeLe7C4x39a//8wdbhzpFP7veVpfz7S6qaL
+  </data>
+ </layer>
+ <layer id="24" name="goods" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztm0lOxDAQRdPbpjkEzREACTgCO9gzLGHPsAQJuAJIDWdgPAPjGRjPwLDmSwjJi8TymCqH/6S3aCt2SnZSdkmdqiKEEELqWYRL0kEURO75WocbGcfXju/8/vf5yg3nl5B24F6cltj5DMl9XMNmJPYS7l+EpGUZrsBVuCYbipVS4oxlE27BbbgjHIuNUuIkcvD8FEaueeP5KQzOGyHpyJHfuNeEkyO/MWd2k2npAAgh2eA+qoumfTR0nbi+eQg97/j049rpgmdcQnTQh2NwoGwsX7qS4yfgEE4qG8uXmByvaS1n4RycVzZWm3C/JuQXTbkplH14AA+lA0lAitwkvaYjeAJPBWPQhIb95gpeC8fQJWJrgwf4aPzehXst3t+GdP4IIbY2eIPvxu8jeOzYdybB/W1oyB++SNcGMfeXev5LfO/aQOr5L/G9I4SQM3gOL+ClcCykqm7gLbyD95FjTVnazLrAdp1LW12N4do/NU3f/fjWTX88wWf4Al8jY1uwtJl1ge06l7a6GsO1vyuu/+tr+u7Hp24y+YCf8At+B/R3xawLYmsT6RonJ/0e3n04gOM96WiIKz/lnE4g
+  </data>
+ </layer>
+ <layer id="25" name="green" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt2U1OwkAcQHHq5w4UXYAIV/DjECinUS8BXk64hHoFFTXxuTC4Kgwd0ml5v+Tt6GSakEz/mUZDkiRJkiRJklQHF3RJV3Rd8l6WeaIpzcreyAYN6YZuaVTyXpZ5phd6LXsjkiqtSufQNqjSOSSpPlL4zvc8WkjhO9/zSJIkSdpusWa0FObNOog1o6Uwb0qSJEm/YswKIWt4D5UvxqwQsob3UJIkSSoiox3apT3apwM6zHkm1n1F6Dpv9E4fNKdP+qLvf79ZZ15Z5Zk7uqeHAmv8yXuPDnXpjHp0Tn0a5KwX674idJ0mf54WHdExtemETrPFb9aZV1Z5ZkwTeiywRsh7KA0/FNxFFg==
+  </data>
+ </layer>
+ <objectgroup id="5" name="sp wtable"/>
+ <objectgroup id="6" name="sp stable">
+  <object id="70" x="592" y="1768" width="172" height="160">
+   <properties>
+    <property name="name" value="rush"/>
+   </properties>
+  </object>
+  <object id="71" x="2188" y="1420" width="180" height="172">
+   <properties>
+    <property name="name" value="block"/>
+   </properties>
+  </object>
+  <object id="72" x="3700" y="1764" width="172" height="164">
+   <properties>
+    <property name="name" value="boom"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="sp seesaw"/>
+ <objectgroup id="9" name="sp wall">
+  <object id="73" x="0" y="1256" width="764" height="84"/>
+  <object id="74" x="1768" y="1592" width="1000" height="84"/>
+  <object id="75" x="1180" y="2684" width="584" height="80"/>
+  <object id="76" x="668" y="3352" width="588" height="88"/>
+  <object id="77" x="1840" y="3364" width="852" height="84"/>
+  <object id="78" x="2764" y="2688" width="600" height="84"/>
+  <object id="79" x="3356" y="3352" width="568" height="104"/>
+  <object id="81" x="3448" y="1264" width="760" height="72"/>
+  <object id="82" x="0" y="4024" width="8392" height="192"/>
+  <object id="83" x="4608" y="0" width="3792" height="3592"/>
+  <object id="84" x="-184" y="-56" width="184" height="4264"/>
+  <object id="85" x="-224" y="-192" width="8696" height="184"/>
+  <object id="86" x="8384" y="-304" width="176" height="4528"/>
+ </objectgroup>
+ <objectgroup id="10" name="sp platform">
+  <object id="87" x="420" y="1920" width="584" height="100"/>
+  <object id="88" x="3532" y="1920" width="584" height="100"/>
+ </objectgroup>
+ <objectgroup id="11" name="sp trampoline">
+  <object id="89" x="1348" y="2604" width="248" height="80"/>
+  <object id="90" x="840" y="3272" width="248" height="84"/>
+  <object id="91" x="3536" y="3268" width="236" height="80"/>
+  <object id="92" x="1348" y="3944" width="260" height="80"/>
+  <object id="93" x="2944" y="3940" width="236" height="96"/>
+  <object id="96" x="2940" y="2604" width="252" height="84"/>
+ </objectgroup>
+ <objectgroup id="12" name="sp monster">
+  <properties>
+   <property name="name" value=""/>
+  </properties>
+ </objectgroup>
+ <objectgroup id="13" name="sp door">
+  <object id="94" x="7648" y="3784" width="172" height="236">
+   <properties>
+    <property name="name" value="normal"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="14" name="sp boy">
+  <object id="95" x="2172" y="3216">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

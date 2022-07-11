@@ -1,0 +1,93 @@
+<dict>
+  <key>question files</key>
+  <array>
+    <string>word/sc.plist</string>
+    <string>word/wyw.plist</string>
+    <string>word/xhy.plist</string>
+    <string>word/dl.plist</string>
+  </array>
+
+  <key>all Hanzi file</key>
+  <string>word/random.plist</string>
+  
+  <key>game info files</key>
+  <string>word/info.plist</string>
+
+  <key>game info font</key>
+  <string>fonts/info_ht.fnt</string>
+  
+  <!--题目的正确字字体-->
+  <key>queston font right</key>
+  <string>fonts/right_kt.fnt</string>
+
+  <!--题目的错别字字体-->
+  <key>question font wrong</key>
+  <string>fonts/wrong_kt.fnt</string>
+
+  <!--地图相关-->
+  <!--墙-->
+  <key>map objects wall</key>
+  <string>sp wall</string>
+  <!--平台-->
+  <key>map objects platform</key>
+  <string>sp platform</string>
+  <!--跷跷板-->
+  <key>map objects seesaw</key>
+  <string>sp seesaw</string>
+  <!--蹦床-->
+  <key>map objects trampoline</key>
+  <string>sp trampoline</string>
+  <!--怪物-->
+  <key>map objects monster</key>
+  <string>sp monster</string>
+  <!--门-->
+  <key>map objects door</key>
+  <string>sp door</string>
+  <!--男孩-->
+  <key>map objects boy</key>
+  <string>sp boy</string>
+  <!--武器台-->
+  <key>weapon table</key>
+  <string>sp wtable</string>
+  <!--技能台-->
+  <key>skill table</key>
+  <string>sp stable</string>
+
+  <!--地图集-->
+  <key>maps</key>
+  <array>
+    <array>
+      <string>map/map0.tmx</string>
+    </array>
+    <array>
+      <string>map/mapA1.tmx</string>
+      <string>map/mapA2.tmx</string>
+      <string>map/mapA3.tmx</string>
+    </array>
+    <array>
+      <string>map/mapB1.tmx</string>
+      <string>map/mapB2.tmx</string>
+      <string>map/mapB3.tmx</string>
+    </array>
+  </array>
+
+  <!--背景集-->
+  <key>backgrounds</key>
+  <array>
+    <string>png/background/01.png</string>
+    <string>png/background/01.png</string>
+    <string>png/background/02.png</string>
+  </array>
+  <key>back sounds</key>
+  <array>
+    <string>sound/background/01.mp3</string>
+    <string>sound/background/01.mp3</string>
+    <string>sound/background/02.mp3</string>
+  </array>
+  <key>cut names</key>
+  <array>
+    <string>鼓楼</string>
+    <string>高山流水</string>
+    <string>茂林修竹</string>
+  </array>
+</dict>
